@@ -1,0 +1,86 @@
+body {
+    font-family:'Manrope' sans-serif;
+    
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url('/assets/pattern.png');
+}
+.cars{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px black;
+}
+.cars h1
+{
+margin-bottom: 20px;
+font-weight: 800;
+}
+.cars p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.car-economy h1{
+    color: salmon;
+}
+.car-economy a{
+    background-color: salmon;
+}
+.car-economy a:hover{
+    background-color: rgb(163, 80, 71);
+}
+.car-economy a:active{
+    background-color: rgb(163, 80, 71);
+}
+.car-luxury h1{
+    color: #001aff;
+}
+.car-luxury a{
+    background-color: magenta;
+}
+.car-luxury a:hover{
+    background-color: rgb(167, 59, 167);
+}
+.car-luxury a:active{
+    background-color: rgb(167, 59, 167);
+}
+.car-family h1{
+    color: rgb(18, 142, 45);
+}
+.car-family a{
+    background-color: khaki;
+}
+.car-family a:hover{
+    background-color: rgb(242, 227, 93);
+}
+.car-family a:active{
+    background-color: rgb(242, 227, 93);
+}
+.car-economy {
+    background:white url("/assets/economic-car.png") no-repeat right;
+    background-size: 200px;
+}
+.car-luxury {
+    background: white url("/assets/luxury-car.png") no-repeat right;
+    background-size: 200px;
+}
+.car-family {
+    background:white url("/assets/family-car.png") no-repeat right;
+    background-size: 200px;
+}
+
+a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+}
